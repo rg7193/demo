@@ -18,4 +18,14 @@ class DemoTest {
         Assertions.assertTrue(application.isRunning());
     }
 
+    @Test
+    void testReverse(){
+        String foo = "bar";
+
+        StringBuilder sb = new StringBuilder(foo);
+
+        Assertions.assertEquals(sb.reverse().toString(), "rab");
+
+    }
+
 }
