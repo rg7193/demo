@@ -25,3 +25,8 @@
         - name: Get the version
           run: |
             echo "VERSION=$(./gradlew properties -q | grep "version:" | awk '{print $2}')" >> $GITHUB_ENV
+        - name: Publish Jar
+          uses: actions/upload-artifact@v3-preview
+          with:
+            name: cicd-demo-${{env.VERSION}}-all.jar
+            path: build/libs/*-all.jar
