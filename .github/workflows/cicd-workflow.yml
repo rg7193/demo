@@ -1,13 +1,11 @@
-  name: cicd-demo
+  name: 'cicd-demo'
   on:
     push:
       branches:
-        -'demo'
+        - master
   jobs:
-    build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 'Start Build job'
+      - name: Start Build job
         run: |
           echo "Starting the build job."
