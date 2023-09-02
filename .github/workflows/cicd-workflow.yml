@@ -5,8 +5,8 @@
         -'demo'
   jobs:
     build:
-      name: Build Job
     runs-on: ubuntu-latest
+
     steps:
       - name: 'Start Build job'
         run: |
