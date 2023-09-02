@@ -11,7 +11,7 @@
           run: |
             echo "Starting the build job."
         - name: Checkout
-          uses: actions/chckout@v2
+          uses: actions/checkout@v2
         - name: Setup Java
           uses: actions/setup-java@v1
           with:
