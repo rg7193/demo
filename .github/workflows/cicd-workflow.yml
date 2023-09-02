@@ -4,8 +4,9 @@
       branches:
         - master
   jobs:
-    runs-on: ubuntu-latest
-    steps:
+    check-links:
+      runs-on: ubuntu-latest
+      steps:
       - name: Start Build job
         run: |
           echo "Starting the build job."
