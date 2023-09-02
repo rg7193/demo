@@ -4,9 +4,9 @@
       branches:
         -'demo'
   jobs:
-    build-job:
+    build:
       name: Build Job
-    runs-on:  ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: 'Start Build job'
         run: |
