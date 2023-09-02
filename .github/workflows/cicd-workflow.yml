@@ -19,3 +19,6 @@
         - name: Check java version
           run: |
             java --version
+        - name: Build demo project
+          run: |
+            ./gradlew build
