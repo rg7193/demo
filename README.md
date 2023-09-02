@@ -19,3 +19,4 @@
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
 
 
+[![cicd-demo](https://github.com/rg7193/demo/actions/workflows/cicd-workflow.yml/badge.svg)](https://github.com/rg7193/demo/actions/workflows/cicd-workflow.yml)
