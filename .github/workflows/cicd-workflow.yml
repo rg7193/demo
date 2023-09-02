@@ -22,3 +22,6 @@
         - name: Build demo project
           run: |
             ./gradlew build
+        - name: Get the version
+          run: |
+            echo "VERSION=$(./gradlew properties -q | grep "version:" | awk '{print $2}')" >> $GITHUB_ENV
